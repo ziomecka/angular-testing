@@ -81,7 +81,7 @@
         "test": {
           "builder": "@angular-builders/jest:run",
           "options": {
-            "main": ["src/test.ts"],
+            "main": [],
             "polyfills": ["src/polyfills.ts"],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
@@ -91,7 +91,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "configPath": "src/jest.config.js"
           }
         }
       }
